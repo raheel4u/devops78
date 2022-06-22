@@ -14,3 +14,8 @@ if [ $age -gt 26 -a $age -lt 64 ]; then
 	exit
 fi
 echo "Ok let's contunue with the script:"
+if [ $age -gt 26 -a $age -lt 64 ]; then
+	echo "you are between 26 and 64"
+	exit
+fi
+echo "Ok let's contunue with the script:"
